@@ -15,7 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Setup Python
-        uses: frequenz-floss/gh-action-setup-python-with-deps@v0.x.x
+        uses: frequenz-floss/gh-action-setup-python-with-deps@v1.0.0
         with:
           python-version: "3.11"
           dependencies: "mkdocs"
